@@ -1,6 +1,6 @@
 # Advanced Data Structure
 
-## content
+## contents
 Advanced Binary Search Tree
 * AVLTree
 * RedBlackTree
