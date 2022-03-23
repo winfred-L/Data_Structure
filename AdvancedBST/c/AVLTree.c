@@ -144,13 +144,13 @@ AVLTree DeleteAVL(AVLTree T, int val){
 		if(Height(T->child[0])-Height(T->child[1])==2){
 			if(Height(T->child[0]->child[0])-Height(T->child[0]->child[1])==1){//LL case
 				T = SingleRotation(T,0);
-			}else{//LR case
+			}else if(Height(T->child[0]->child[1])-Height(T->child[0]->child[0])==1){//LR case
 				T = DoubleRotation(T,0);
 			}
 		}else if(Height(T->child[1])-Height(T->child[0])==2){
 			if(Height(T->child[1]->child[0])-Height(T->child[1]->child[1])==1){//RL case
 				T = DoubleRotation(T,1);
-			}else{//RR case
+			}else if(Height(T->child[1]->child[1])-Height(T->child[1]->child[0])==1){//RR case
 				T = SingleRotation(T,1);
 			}
 		}
