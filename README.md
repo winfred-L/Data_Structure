@@ -6,3 +6,7 @@ Advanced Binary Search Tree
 * RedBlackTree
 * SplayTree
 * B+Tree (UNDO)
+Advanced Heap (UNDO)
+* leftist heap
+* skew heap
+* binomial heap
