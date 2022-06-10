@@ -1,13 +1,18 @@
-# Advanced Data Structure
+# Data Structure
 
 ## contents
-Advanced Binary Search Tree
+Binary Search Tree
+* basic BST
 * AVLTree
 * RedBlackTree
 * SplayTree
 * B+Tree (UNDO)
 
-Advanced Heap (UNDO)
-* leftist heap
-* skew heap
-* binomial heap
+Heap
+* basic heap
+* leftist heap (UNDO)
+* skew heap (UNDO)
+* binomial heap (UNDO)
+
+List
+* skip list
